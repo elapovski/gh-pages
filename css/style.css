@@ -1,0 +1,80 @@
+html {
+	line-height: 1.15;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+    padding: 2.8rem;
+	background-color: clear;
+	background-image: linear-gradient(45deg, #2afadf 10%, #00A0BE 100%);
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Space Mono", Monaco, Menlo, Consolas, monospace;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: 400;
+	min-height: 100%;
+	-webkit-tap-highlight-color: transparent
+}
+body {
+    background-color: #17171a!important;
+	line-height: 1.6rem;
+	margin: 0;
+	padding: 0;
+    text-align: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%
+}
+.container {
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+	max-width: 1100px;
+	width: 90%;
+}
+img {
+    margin-bottom: 3.2rem;
+    margin-top: 0;
+    width: 90%;
+	border-style: none;
+    display: inline-block;
+	vertical-align: middle;
+	border: 0;
+	font-style: italic;
+	height: auto;
+	-ms-interpolation-mode: bicubic
+}
+.btn {
+    background-color: #00A0BE;
+	color: #ffffff;
+	border-radius: 0px;
+	font-weight: 700;
+	padding: .95rem 2rem .85rem;
+	text-decoration: none;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	-webkit-transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
+	transition: background-color .2s ease-out, background .2s ease-out, color .2s ease-out, border .2s ease-out;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	vertical-align: middle;
+	white-space: nowrap;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none
+}
+.btn:focus, .btn:hover, .btn:active {
+    background-color: #2aaad1
+}
+@media screen and (min-width:40em) {
+	html {
+		font-size: 19px
+	}
+}
+@media screen and (max-width:40em) {
+	.btn {
+		margin-bottom: .8rem
+	}
+}
